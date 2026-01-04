@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Varaprasad Erapu - Embedded Firmware Engineer with expertise in Embedded C, Zephyr RTOS, and Yocto Linux. Portfolio showcasing experience in medical and industrial embedded systems.">
+    <meta name="keywords" content="Embedded Engineer, Firmware Developer, Zephyr RTOS, Yocto, Embedded Linux, IoT">
+    <meta name="author" content="Varaprasad Erapu">
+    <title>Varaprasad Erapu | Embedded Firmware Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>VP<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Varaprasad Erapu</h1>
+                <div class="hero-title-wrapper">
+                    <span class="hero-title">Embedded Firmware Engineer</span>
+                </div>
+                <p class="hero-description">
+                    Building robust embedded systems for medical and industrial applications. 
+                    Specialized in Zephyr RTOS, Embedded Linux, and bare-metal firmware development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4.5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="window-title">firmware.c</span>
+                    </div>
+                    <pre class="code-content"><code><span class="code-keyword">#include</span> <span class="code-string">&lt;zephyr/kernel.h&gt;</span>
+
+<span class="code-keyword">void</span> <span class="code-function">main</span>(<span class="code-keyword">void</span>) {
+    <span class="code-comment">// Initialize system</span>
+    <span class="code-function">init_sensors</span>();
+    <span class="code-function">init_display</span>();
+    
+    <span class="code-keyword">while</span> (<span class="code-number">1</span>) {
+        <span class="code-function">read_vitals</span>();
+        <span class="code-function">update_display</span>();
+        <span class="code-function">k_msleep</span>(<span class="code-number">100</span>);
+    }
+}</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm an <strong>Embedded Firmware Engineer</strong> with 4.5+ years of experience 
+                        crafting reliable, production-grade embedded systems.
+                    </p>
+                    <p>
+                        My expertise spans across <strong>Embedded C</strong>, bare-metal programming, and 
+                        <strong>RTOS-based systems</strong> (Zephyr, VxWorks). I have a strong background in 
+                        <strong>Embedded Linux development</strong> using the Yocto Project, including board 
+                        bring-up, kernel customization, and device tree configuration.
+                    </p>
+                    <p>
+                        I've worked extensively with <strong>NXP i.MX RT1170</strong> and <strong>i.MX93</strong> 
+                        platforms, delivering firmware solutions in the <strong>medical and industrial domains</strong>. 
+                        I'm passionate about CI/CD automation for embedded build and test pipelines.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <span>Bangalore, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">💼</span>
+                            <span>Senior Firmware Engineer @ Schiller Healthcare</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎓</span>
+                            <span>M.Tech in IoT & Sensor Systems</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <span class="avatar-text">VE</span>
+                        </div>
+                        <div class="profile-details">
+                            <h3>Varaprasad Erapu</h3>
+                            <p>Embedded Firmware Engineer</p>
+                            <div class="profile-links">
+                                <a href="https://linkedin.com/in/varaprasaderapu" target="_blank" class="profile-link" title="LinkedIn">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                </a>
+                                <a href="https://github.com/VaraprasadE" target="_blank" class="profile-link" title="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                                <a href="mailto:varaprasad.erapu@gmail.com" class="profile-link" title="Email">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">💻</div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Embedded C</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">⚡</div>
+                    <h3>OS & RTOS</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Zephyr RTOS</span>
+                        <span class="skill-tag">VxWorks</span>
+                        <span class="skill-tag">Embedded Linux</span>
+                        <span class="skill-tag">Yocto Project</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Hardware & Architecture</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ARM Cortex-M</span>
+                        <span class="skill-tag">NXP i.MX RT1170</span>
+                        <span class="skill-tag">NXP i.MX93</span>
+                        <span class="skill-tag">NXP LPC54628</span>
+                        <span class="skill-tag">Oscilloscope</span>
+                        <span class="skill-tag">Logic Analyzer</span>
+                        <span class="skill-tag">JTAG</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🔌</div>
+                    <h3>Protocols</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UART</span>
+                        <span class="skill-tag">I2C</span>
+                        <span class="skill-tag">SPI</span>
+                        <span class="skill-tag">CAN</span>
+                        <span class="skill-tag">MQTT</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Yocto</span>
+                        <span class="skill-tag">BitBake</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">SonarQube</span>
+                        <span class="skill-tag">LVGL</span>
+                        <span class="skill-tag">DWIN</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>Senior Firmware Engineer</h3>
+                                <span class="company-name">Schiller Healthcare India Pvt Ltd</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">Jul 2024 – Present</span>
+                                <span class="timeline-location">Bangalore, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Set up and maintained entire software version control system using Git and Gitea, established CI/CD pipelines using Jenkins and SonarQube for embedded firmware builds</li>
+                            <li>Developed firmware using Zephyr RTOS for patient monitoring system, focusing on modular driver integration and real-time performance</li>
+                            <li>Built bare-metal firmware on NXP LPC microcontrollers for ECG machine (AT102), implementing data acquisition, signal processing, and hardware interfacing</li>
+                            <li>Working on Yocto-based Embedded Linux system for next-gen patient monitor device, integrating LVGL for touchscreen GUI development</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Zephyr RTOS</span>
+                            <span>Yocto</span>
+                            <span>LVGL</span>
+                            <span>Jenkins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>Embedded Software Engineer</h3>
+                                <span class="company-name">GE Healthcare</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">Jun 2022 – Jul 2024</span>
+                                <span class="timeline-location">Bangalore, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li><strong>X-Ray Generator Software:</strong> Enhanced reliability of critical functionalities, including implementing and tuning Fast kV switching frequency limit features</li>
+                            <li><strong>CI/CD for VxWorks:</strong> Developed and optimized CI/CD pipelines, reducing build time from 20 minutes to 7-8 minutes (60% improvement)</li>
+                            <li><strong>Automation & Testing:</strong> Built Python-based automated test cycler that eliminated weeks of manual testing, improving team efficiency by 50%</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>VxWorks</span>
+                            <span>Python</span>
+                            <span>CI/CD</span>
+                            <span>X-Ray Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>Embedded IoT Engineer</h3>
+                                <span class="company-name">Gemicates Technologies Pvt Ltd</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">May 2019 – Apr 2020</span>
+                                <span class="timeline-location">Chennai, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Designed and developed IoT node hardware and firmware, handling full-cycle development from circuit design to deployment</li>
+                            <li>Used KiCad for PCB design and schematic capture of sensor and communication modules (Wi-Fi based)</li>
+                            <li>Built custom Embedded Linux distribution for IoT gateway device using Yocto Project, including kernel and rootfs customization</li>
+                            <li>Developed local web interface (lightweight HTTP server-based) for gateway, enabling real-time device monitoring</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>IoT</span>
+                            <span>KiCad</span>
+                            <span>Yocto</span>
+                            <span>PCB Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card featured">
+                    <div class="project-header">
+                        <span class="project-badge">Current</span>
+                        <h3>Patient Monitoring System</h3>
+                        <p class="project-subtitle">NXP i.MX93 | Yocto + Zephyr</p>
+                    </div>
+                    <div class="project-body">
+                        <p>Dual-core system with Linux (Cortex-A55) and Zephyr RTOS (Cortex-M33) for real-time patient vitals monitoring.</p>
+                        <ul>
+                            <li>Built custom Yocto image with LVGL GUI for real-time vitals display</li>
+                            <li>Wrote Zephyr firmware for sensor handling and inter-core synchronization</li>
+                            <li>Configured bootloader, device tree, and kernel for Linux-RTOS integration</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech">
+                            <span>Zephyr</span>
+                            <span>Yocto</span>
+                            <span>LVGL</span>
+                            <span>ARM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge">2021</span>
+                        <h3>Smart Ground Water Quality Assessment</h3>
+                        <p class="project-subtitle">IoT + Machine Learning</p>
+                    </div>
+                    <div class="project-body">
+                        <p>IoT device for real-time groundwater quality monitoring with ML-based irrigation suitability prediction.</p>
+                        <ul>
+                            <li>Computed Water Quality Index (WQI) from sensor data</li>
+                            <li>Trained ML model with 95% accuracy for irrigation prediction</li>
+                            <li>Designed UI for real-time farmer feedback</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech">
+                            <span>IoT</span>
+                            <span>ML</span>
+                            <span>Python</span>
+                            <span>Sensors</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge">2020</span>
+                        <h3>IoT Virtual & Remote Sensors</h3>
+                        <p class="project-subtitle">Remote Lab Setup</p>
+                    </div>
+                    <div class="project-body">
+                        <p>Remote IoT lab setup using Raspberry Pi for virtual sensor-based experiments for e-learning.</p>
+                        <ul>
+                            <li>Interfaced Temperature and LDR sensors with live streaming</li>
+                            <li>Hosted data on web dashboard for real-time monitoring</li>
+                            <li>Integrated authentication and database for secure access</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech">
+                            <span>Raspberry Pi</span>
+                            <span>IoT</span>
+                            <span>Web</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-content">
+                        <h3>M.Tech in IoT and Sensor Systems</h3>
+                        <p class="institution">Vellore Institute of Technology</p>
+                        <p class="education-date">Jun 2020 – May 2022</p>
+                        <p class="education-gpa">GPA: 8.53/10.0</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-content">
+                        <h3>B.Tech in Electronics & Communication Engineering</h3>
+                        <p class="institution">Rajeev Gandhi Memorial College of Engineering and Technology</p>
+                        <p class="education-date">Jun 2016 – Apr 2019</p>
+                        <p class="education-gpa">GPA: 7.20/10.0</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">📜</div>
+                    <div class="education-content">
+                        <h3>Diploma in Electronics & Communication</h3>
+                        <p class="institution">Sree Vidyanikethan Engineering College</p>
+                        <p class="education-date">Jun 2013 – Apr 2016</p>
+                        <p class="education-gpa">85.13%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section publications">
+        <div class="container">
+            <h2 class="section-title">Publications & Conferences</h2>
+            <div class="publications-list">
+                <div class="publication-card">
+                    <div class="publication-type">📄 IEEE Paper</div>
+                    <h3><a href="https://ieeexplore.ieee.org/document/10026950" target="_blank">eGWQI: Edge Intelligence Based Ground Water Quality Monitoring System for Smart Irrigation</a></h3>
+                    <p class="publication-venue">IEEE iSES 2022</p>
+                </div>
+                <div class="publication-card">
+                    <div class="publication-type">📄 Conference Paper</div>
+                    <h3><a href="https://www.alliance.edu.in/aicaam-conference-proceedings/Papers/Image-Scrambling-through-Two-Level-Arnold-Transform.pdf" target="_blank">Image Scrambling Through Two Level Arnold Transform</a></h3>
+                    <p class="publication-venue">January 2019</p>
+                </div>
+                <div class="publication-card">
+                    <div class="publication-type">🏆 Mentorship</div>
+                    <h3>Industrial Mentor for Smart India Hackathon 2019</h3>
+                    <p class="publication-venue">NIT Trichy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm always interested in hearing about new opportunities, 
+                        challenging embedded projects, or just having a chat about technology!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:varaprasad.erapu@gmail.com" class="contact-method">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">varaprasad.erapu@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+917013876458" class="contact-method">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+91-7013876458</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/varaprasaderapu" target="_blank" class="contact-method">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/varaprasaderapu</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/VaraprasadE" target="_blank" class="contact-method">
+                            <div class="contact-icon">💻</div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">github.com/VaraprasadE</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Varaprasad Erapu. All rights reserved.</p>
+                <p class="footer-tagline">Crafting embedded systems that matter.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
