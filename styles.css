@@ -1063,7 +1063,7 @@ body {
 
 .contact-methods {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -1116,6 +1116,8 @@ body {
 .contact-value {
     color: var(--text-primary);
     font-weight: 500;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 /* ========================================
@@ -1292,6 +1294,10 @@ body {
     .education-card {
         flex-direction: column;
         text-align: center;
+    }
+
+    .contact-methods {
+        grid-template-columns: 1fr;
     }
 }
 
